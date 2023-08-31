@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pra04", "pra04\pra04.vcxproj", "{AEACE633-D513-4362-84E5-15EAEA05CC62}"
+EndProject
+Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "pra03", "..\pra03\x64\Debug\pra03.exe", "{6078F376-3E55-470E-B1EA-D512BB047D36}"
+	ProjectSection(DebuggerProjectSystem) = preProject
+		PortSupplier = 00000000-0000-0000-0000-000000000000
+		Executable = C:\Users\Lenovo\Desktop\github\sf3_01\pra03\x64\Debug\pra03.exe
+		RemoteMachine = LAPTOP-LOPC86U0
+		StartingDirectory = C:\Users\Lenovo\Desktop\github\sf3_01\pra03\x64\Debug
+		Environment = 기본값
+		LaunchingEngine = 00000000-0000-0000-0000-000000000000
+		UseLegacyDebugEngines = No
+		LaunchSQLEngine = No
+		AttachLaunchAction = No
+		IORedirection = Auto
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEACE633-D513-4362-84E5-15EAEA05CC62}.Debug|x64.ActiveCfg = Debug|x64
+		{AEACE633-D513-4362-84E5-15EAEA05CC62}.Debug|x64.Build.0 = Debug|x64
+		{AEACE633-D513-4362-84E5-15EAEA05CC62}.Debug|x86.ActiveCfg = Debug|Win32
+		{AEACE633-D513-4362-84E5-15EAEA05CC62}.Debug|x86.Build.0 = Debug|Win32
+		{AEACE633-D513-4362-84E5-15EAEA05CC62}.Release|x64.ActiveCfg = Release|x64
+		{AEACE633-D513-4362-84E5-15EAEA05CC62}.Release|x64.Build.0 = Release|x64
+		{AEACE633-D513-4362-84E5-15EAEA05CC62}.Release|x86.ActiveCfg = Release|Win32
+		{AEACE633-D513-4362-84E5-15EAEA05CC62}.Release|x86.Build.0 = Release|Win32
+		{6078F376-3E55-470E-B1EA-D512BB047D36}.Debug|x64.ActiveCfg = Release|x64
+		{6078F376-3E55-470E-B1EA-D512BB047D36}.Debug|x86.ActiveCfg = Release|x64
+		{6078F376-3E55-470E-B1EA-D512BB047D36}.Release|x64.ActiveCfg = Release|x64
+		{6078F376-3E55-470E-B1EA-D512BB047D36}.Release|x86.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DFE8441B-D5D6-45FE-9F68-0B9660AAC05F}
+	EndGlobalSection
+EndGlobal

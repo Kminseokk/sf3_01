@@ -1,0 +1,4 @@
+﻿  pra03.cpp
+C:\Users\Lenovo\Desktop\github\sf3_01\pra03\pra03\pra03.cpp(47,9): warning C4101: 'e' :참조되지 않은 지역 변수입니다.
+C:\Users\Lenovo\Desktop\github\sf3_01\pra03\pra03\pra03.cpp(48,9): warning C4101: 'f' :참조되지 않은 지역 변수입니다.
+  pra03.vcxproj -> C:\Users\Lenovo\Desktop\github\sf3_01\pra03\x64\Debug\pra03.exe
