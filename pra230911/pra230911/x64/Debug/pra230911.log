@@ -1,0 +1,4 @@
+﻿  pra230911.cpp
+C:\Users\Lenovo\Desktop\github\sf3_01\pra230911\pra230911\pra230911.cpp(44,20): warning C4101: 'height2' :참조되지 않은 지역 변수입니다.
+C:\Users\Lenovo\Desktop\github\sf3_01\pra230911\pra230911\pra230911.cpp(44,12): warning C4101: 'width2' :참조되지 않은 지역 변수입니다.
+  pra230911.vcxproj -> C:\Users\Lenovo\Desktop\github\sf3_01\pra230911\x64\Debug\pra230911.exe
