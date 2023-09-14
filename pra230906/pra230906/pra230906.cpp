@@ -64,27 +64,27 @@ int main()
     //    string ssstr2 = input2;
     //    stringstream ss2(ssstr2);
 
-    //    char ch1, ch2;
+        //char ch1, ch2;
 
-    //    while (ss >> ch1) {
-    //        if (ch1 >= 'A' && ch1 <= 'z') {
-    //            result1 = 1;
-    //            //cout << "첫 번째 문자열은 숫자로만 이루어져 있지 않아요. \n";
-    //        }
-    //    }
-    //    while (ss2 >> ch2) {
-    //        if (ch2 >= 'A' && ch2 <= 'z') {
-    //            result2 = 1;
-    //            //cout << "두 번째 문자열 숫자로만 이루어져 있지 않아요. \n";
-    //        }
-    //    }
-    //    if (result1 == 0 && result2 == 0) {
-    //        cout << "\n 두 문자열 숫자로만 이루어져 있네요. \n";
-    //        break;
-    //    }
-    //    else {
-    //        cout << "\n숫자로만 이루어져 있지 않아요. \n";
-    //    }
+        //while (ss >> ch1) {
+        //    if (ch1 >= 'A' && ch1 <= 'z') {
+        //        result1 = 1;
+        //        //cout << "첫 번째 문자열은 숫자로만 이루어져 있지 않아요. \n";
+        //    }
+        //}
+        //while (ss2 >> ch2) {
+        //    if (ch2 >= 'A' && ch2 <= 'z') {
+        //        result2 = 1;
+        //        //cout << "두 번째 문자열 숫자로만 이루어져 있지 않아요. \n";
+        //    }
+        //}
+        //if (result1 == 0 && result2 == 0) {
+        //    cout << "\n 두 문자열 숫자로만 이루어져 있네요. \n";
+        //    break;
+        //}
+        //else {
+        //    cout << "\n숫자로만 이루어져 있지 않아요. \n";
+        //}
     //}
     //cout << " 두 문자열을 합쳤어요. : " << input1 + input2 << endl;
     ////cout << " 두 문자열을 합쳤어요. : " << input1.append(input2) << endl;

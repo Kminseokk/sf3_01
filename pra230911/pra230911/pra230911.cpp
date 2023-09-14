@@ -30,36 +30,54 @@ public:
     }
 
 
+    //getter 함수
+    double getWidth() {
+        return width;
+    }
 
-    void talk() {
-        cout << "메소드에서 메소드 넓이는 (talk()) = " << area() << " 입니다. \n" << endl;
-        return;
+    double getHeight() {
+        return height;
+    }
+
+    //setter 함수
+    void setWidth(double width) {
+        this->width = width;
+    }
+
+    //setter 함수
+    void setHeight(double height) {
+        this->height = height;
     }
 
 };
 
 int main() {
 
-    double width, height;
+    double width;
+    double height;
     double width2, height2;
+
+    Rectangle rec(1, 2);
+
+    cout << "rec(1, 2)의 넓이는 " << rec.area() << " 입니다. " << endl;
 
     cout << "가로 세로 길이를 입력. : ";
     cin >> width >> height;
 
-    Rectangle rec(width, height);
+    //Rectangle rec_copy(rec);
 
-    cout << "그냥 클래스 넓이는 " << rec.area() << " 입니다. " << endl;
+    //cout << "복사 생성자 넓이는 " << rec_copy.area() << " 입니다. " << endl;
 
-    rec.talk();
+    //Rectangle rec_copy2 = rec_copy;
 
-    Rectangle rec_copy(rec);
+    //cout << "복사 생성자를 복사 생성자 한 넓이는 " << rec_copy2.area() << " 입니다. " << endl;
 
-    cout << "복사 생성자 넓이는 " << rec_copy.area() << " 입니다. " << endl;
+    rec.setWidth(width);
+    rec.setHeight(height);
 
-    Rectangle rec_copy2 = rec_copy;
-
-    cout << "복사 생성자를 복사 생성자 한 넓이는 " << rec_copy2.area() << " 입니다. " << endl;
-
+    cout << "넓이는 " << rec.area() << " 입니다. " << endl;
+    cout << "가로 길이는 " << rec.getWidth() << " 입니다. " << endl;
+    cout << "세로 길이는 " << rec.getHeight() << " 입니다. " << endl;
 
 }
 

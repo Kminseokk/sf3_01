@@ -10,8 +10,8 @@ namespace seoul {
 	string area_num;
 	string lendmark;
 
-	void s_printAll() {
-		cout << area_num << " 그리고 " << lendmark << endl;
+	void printAll() {
+		cout << area_num << " 그리고 서울 " << lendmark << endl;
 	}
 }
 
@@ -19,9 +19,9 @@ namespace busan {
 	string area_num;
 	string lendmark;
 
-	void b_printAll() {
+	void printAll() {
 
-		cout << area_num << " 그리고 " << lendmark << endl;
+		cout << area_num << " 그리고 부산 " << lendmark << endl;
 	}
 }
 
@@ -32,12 +32,12 @@ int main()
 {
 	seoul::area_num = "02";
 	seoul::lendmark = "노원구";
-	seoul::s_printAll();
+	seoul::printAll();
 	//using namespace busan;
 
 	area_num = "052";
 	lendmark = "돼지국밥";
-	b_printAll();
+	printAll();
 
 
 
@@ -64,6 +64,14 @@ int main()
 			}
 		}
 	}
+
+	cout << "0을 삭제 시키지 않은 벡터 : ";
+	for (int i = 0; i < myVect.size(); i++) {
+		cout << myVect[i] << " ";
+	}
+	cout << "\n";
+
+
 	myVect.erase(myVect.begin(), myVect.begin() + cnt); //앞에 0을 추가하고 지우는 과정이 있어야 오버플로우가 발생하지 않음.
 
 	sort(myVect.begin(), myVect.end());

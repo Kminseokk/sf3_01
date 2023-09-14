@@ -60,7 +60,7 @@ int main() {
 				}
 			}
 			else {
-				
+				cout << "\n ***예상치못한 오류 발생 code 44~66. " << endl;
 			}
 		}
 

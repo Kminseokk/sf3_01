@@ -1,4 +1,2 @@
 ﻿  pra230912_2.cpp
-C:\Users\Lenovo\Desktop\github\sf3_01\pra230912\pra230912_2\pra230912_2.cpp(104,14): error C2228: '.printinfo' 왼쪽에는 클래스/구조체/공용 구조체가 있어야 합니다.
-C:\Users\Lenovo\Desktop\github\sf3_01\pra230912\pra230912_2\pra230912_2.cpp(104,14): message : 'Shape *' 형식입니다.
-C:\Users\Lenovo\Desktop\github\sf3_01\pra230912\pra230912_2\pra230912_2.cpp(104,14): message : 대신 '->'을(를) 사용하려고 했습니까?
+  pra230912_2.vcxproj -> C:\Users\Lenovo\Desktop\github\sf3_01\pra230912\x64\Debug\pra230912_2.exe

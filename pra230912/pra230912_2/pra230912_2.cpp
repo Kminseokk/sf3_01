@@ -101,7 +101,7 @@ int main()
     s[1] = &tri2;
 
     for (int i = 0; i < 2; i++) {
-        s[i].printinfo() << endl;
+        s[i]->printinfo();
     }
 
 }
